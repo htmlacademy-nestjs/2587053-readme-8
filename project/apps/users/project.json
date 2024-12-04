@@ -1,6 +1,7 @@
 {
   "name": "users",
   "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "root": "apps/users",
   "sourceRoot": "apps/users/src",
   "projectType": "application",
   "tags": [],
@@ -23,12 +24,6 @@
           "buildTarget": "users:build:production"
         }
       }
-    },
-    "docker-build": {
-      "dependsOn": [
-        "build"
-      ],
-      "command": "docker build -f apps/users/Dockerfile . -t users"
     }
   }
 }

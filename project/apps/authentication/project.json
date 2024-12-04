@@ -1,6 +1,7 @@
 {
   "name": "authentication",
   "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "root": "apps/authentication",
   "sourceRoot": "apps/authentication/src",
   "projectType": "application",
   "tags": [],
